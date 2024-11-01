@@ -1,0 +1,27 @@
+.pagina-sobre {
+
+
+
+    .lista {
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .webber {
+
+        background-color: #F3F8F2;
+        border-radius: 30px;
+        padding: 40px 60px;
+
+
+        display: flex;
+        // gap: 60px;
+
+        .foto-webber {
+
+            width: 250px;
+        }
+    }
+}

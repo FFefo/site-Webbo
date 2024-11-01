@@ -1,0 +1,40 @@
+.pagina-app {
+
+  background-color: black;
+
+  .secaoinicial {
+    color: white;
+    font-family: 'roboto';
+
+
+    .titulo {
+      font-size: 160px;
+      color: #5FFF69;
+    }
+    .slogan {
+      padding: 10px 500px;
+    }
+    
+  }
+
+
+  .secoes1 {
+
+    color: white;
+    gap: 200px;
+
+    .secao {
+
+      .titulo {
+        color: #F82863;
+        font-size: 40px;
+      }
+
+      .descriçao {
+        font-size: 20px;
+        padding: 10px 20px;
+      }
+    }
+
+  }
+}
