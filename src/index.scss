@@ -13,27 +13,11 @@ a {
 
 .pagina {
 
-
-    .cabecalho {
-        display: flex;
-        justify-content: space-evenly;
-
-
-        
-
-        background-color: black;
-        padding: 28px 250px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-
-        
-    }
-
     .secaoinicial {
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        
         text-align: center;
         padding: 150px 20px 0px;
     }
@@ -42,7 +26,6 @@ a {
         display: flex;
         flex-direction: column;
         gap: 100px;
-
         padding: 100px 10px;
         margin: 200px;
     }
@@ -56,14 +39,5 @@ a {
         margin: 100px 200px;
         
         }
-
-
-
-
-    .rodape {
-        background-color: #5FFF69;
-        display: flex;
-        align-items: end;
-    }
     
 }

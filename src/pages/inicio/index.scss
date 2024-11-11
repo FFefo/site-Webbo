@@ -1,25 +1,23 @@
-.pagina-app {
-
-  background-color: black;
+.pagina-inicio {
+  background-image: url(../../../public/assets/images/circuito.png);
+  background-size: cover;
 
   .secaoinicial {
     color: white;
     font-family: 'roboto';
 
-
     .titulo {
       font-size: 160px;
       color: #5FFF69;
     }
+
     .slogan {
       padding: 10px 500px;
     }
-    
+
   }
 
-
   .secoes1 {
-
     color: white;
     gap: 200px;
 
@@ -36,5 +34,12 @@
       }
     }
 
+  }
+
+  .rodape {
+    height: 430px;
+    background-color: #5FFF69;
+    display: flex;
+    align-items: end;
   }
 }

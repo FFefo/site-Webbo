@@ -1,26 +1,19 @@
 import { Link } from 'react-router-dom';
+import Cabecalho from '../../components/cabecalho/cabecalho.jsx';
+import CabecalhoDois from '../../components/cabecalhodois/cabecalhodois.jsx';
 import './index.scss';
 
 
-export default function App() {
+export default function Inicio() {
   return (
-    <div className="pagina-app pagina">
+    <div className="pagina-inicio pagina">
 
-        <header className='cabecalho'>
-
-          <Link to='/'>Início</Link>
-          <Link to='/sobre'>Sobre nós</Link>
-          <Link to='/servicos'>Serviços</Link>
-
-        </header>
-
-
-
+      <CabecalhoDois/>
+      
         <div className='secaoinicial'>
 
           <h1 className='titulo'>WEBBO</h1>
           <p className='slogan'>Conectando soluções e saltando para um futuro cheio de criatividade!</p>
-
 
         </div>
         

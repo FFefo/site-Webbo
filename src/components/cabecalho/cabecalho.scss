@@ -1,0 +1,35 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding: 75px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+
+    .linkess{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 400px;
+       
+        .linkass{
+            display: flex;
+            flex-direction: row;
+            gap: 200px;
+        }
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: row;
+
+        .wb {
+            padding: 26.1875px 7.30px;
+            color: greenyellow;
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+}

@@ -1,21 +1,13 @@
 import { Link } from 'react-router-dom';
-
+import Cabecalho from '../../components/cabecalho/cabecalho.jsx';
 import './index.scss';
 
 export default function Servico() {
     return (
       <div className="pagina-servico pagina">
-  
-          <header className='cabecalho'>
-    
-            <Link to='/'>Início</Link>
-            <Link to='/sobre'>Sobre nós</Link>
-            <Link to='/servicos'>Serviços</Link>
-  
-          </header>
 
-
-
+        <Cabecalho/>
+        
           <section className='secoes3'>
 
               <section className='secaoserviço'>

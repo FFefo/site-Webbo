@@ -1,0 +1,29 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding: 75px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+
+    .linkess{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 400px;
+       
+        .linkass{
+            display: flex;
+            flex-direction: row;
+            gap: 200px;
+        }
+    }
+
+    .logo {
+        img{
+            width: 109.9px;
+            height: 85.71px;
+        }
+    }
+}

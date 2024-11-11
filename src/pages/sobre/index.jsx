@@ -1,21 +1,13 @@
 import { Link } from 'react-router-dom';
-
+import Cabecalho from '../../components/cabecalho/cabecalho.jsx';
 import './index.scss';
 
 export default function Sobre() {
     return (
       <div className="pagina-sobre pagina">
   
-          <header className='cabecalho'>
-
-            <Link to='/'>Início</Link>
-            <Link to='/sobre'>Sobre nós</Link>
-            <Link to='/servicos'>Serviços</Link>
+          <Cabecalho/>
   
-          </header>
-
-
-          
           <section className='secoes2'>
 
               <section className='secao'>
@@ -86,7 +78,6 @@ export default function Sobre() {
                 <img src="/assets/images/defaultwebber.jpg" alt="foto de Leticia Koga" className='foto-webber' />
 
               </section>
-
 
           </section>
           
