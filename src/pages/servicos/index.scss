@@ -1,9 +1,122 @@
-.pagina-sobre {
+.pagina-servico {
 
-        padding: 100px 10px;
+        overflow: hidden;
 
         .secaoserviço {
 
                 display: flex;
+                flex-direction: column;
+                padding: 100px;
+
+                span {
+                        color: #5FFF69;
+                }
+
+                h2 {
+                        font-size: 30px
+                }
+
+                p {
+                        font-size: 21px;
+                        //color: #424344;
+                }
         }
-}                                       
+
+        .secao {
+                display: flex;
+                flex-direction: row;
+                padding: 100px;
+                margin-top: -100px;
+
+                h3 {
+                        font-size: 30px;
+                }
+
+                p {
+                        font-size: 21px;
+                }
+
+                li {
+                        font-size: 21px;
+
+                        span {
+                                font-weight: 700;
+                                color: #f82863;
+                        }
+                }
+
+                li::marker {
+                        color: #f82863;
+                }
+
+                .text {
+                        display: flex;
+                        flex-direction: column;
+                }
+
+                .text2 {
+                        padding: 15px 0px;
+                }
+
+                .imagem {
+                        width: 400px;
+                }
+        }
+
+        .secao2 {
+                display: flex;
+                flex-direction: row-reverse;
+                padding: 100px;
+                margin-top: -100px;
+
+                h3 {
+                        font-size: 30px;
+                }
+
+                p {
+                        font-size: 21px;
+                }
+
+                li {
+                        font-size: 21px;
+
+                        span {
+                                font-weight: 700;
+                                color: #f82863;
+                        }
+                }
+
+                li::marker {
+                        color: #f82863;
+                }
+
+                .text {
+                        display: flex;
+                        flex-direction: column;
+
+                        .text2 {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 20px;
+                                text-align: right;
+
+                                h3{
+                                        align-self: center;
+                                        position: relative;
+                                        left: 30px;
+                                }
+                        }
+                }
+
+                .text3 {
+                        padding: 15px 0px;
+                }
+
+                .imagem {
+                        width: 400px;
+                }
+
+        }
+
+
+}

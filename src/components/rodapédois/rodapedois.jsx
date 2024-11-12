@@ -1,8 +1,8 @@
-import './rodape.scss';
+import './rodapedois.scss';
 
-export default function Rodapé(){
+export default function RodapéDois(){
     return(
-        <footer className='rodape'>
+        <footer className='rodape-preto'>
 
         <div className='icones'>
         <i className="fa-brands fa-x-twitter"></i>

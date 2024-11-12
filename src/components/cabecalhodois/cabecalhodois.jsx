@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function CabecalhoDois() {
     return (
-        <header className='cabecalho'>
+        <header className='cabecalho-sapo'>
 
             <div className='logo'>
                 <img className='wb' src="/assets/images/sapwebbo.jpg" alt="" />

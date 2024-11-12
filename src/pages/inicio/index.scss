@@ -17,29 +17,36 @@
 
   }
 
-  .secoes1 {
-    color: white;
-    gap: 200px;
+  .topicos {
 
-    .secao {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 
-      .titulo {
-        color: #F82863;
-        font-size: 40px;
-      }
-
-      .descriçao {
-        font-size: 20px;
-        padding: 10px 20px;
-      }
+    .faixa-verde {
+      position: relative;
+      top: 220px;
+      
     }
 
-  }
+    .secoes1 {
+      color: white;
+      gap: 200px;
 
-  .rodape {
-    height: 430px;
-    background-color: #5FFF69;
-    display: flex;
-    align-items: end;
+      .secao {
+        width: 900px;
+
+        .titulo {
+          color: #F82863;
+          font-size: 40px;
+        }
+
+        .descriçao {
+          font-size: 20px;
+          padding: 10px 20px;
+        }
+      }
+
+    }
   }
 }

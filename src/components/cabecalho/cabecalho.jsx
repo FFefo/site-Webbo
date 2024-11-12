@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Cabecalho() {
     return (
-        <header className='cabecalho'>
+        <header className='cabecalho-webbo'>
 
             <div className='titulo'>
                 <p className='wb'>WEBBO</p>

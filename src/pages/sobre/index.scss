@@ -2,25 +2,48 @@
 
     padding: 0px;
 
-    .lista {
+    .secao {
 
+        h2{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 21px;
+        }
+
+        span{
+            color: #5FFF69;
+        }
+    }
+
+    .lista {
         display: flex;
         flex-direction: column;
         gap: 40px;
+
+        li{
+            font-size: 21px;
+
+            span{
+                font-weight: 700;
+                color: #f82863;
+            }
+        }
+
+        li::marker {
+            color: #f82863;
+          }
     }
 
     .webber {
-
         background-color: #F3F8F2;
         border-radius: 30px;
         padding: 40px 60px;
-
-
         display: flex;
         // gap: 60px;
 
         .foto-webber {
-
             width: 250px;
         }
     }
