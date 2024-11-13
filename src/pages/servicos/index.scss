@@ -22,7 +22,7 @@
                 }
         }
 
-        .secao {
+        .secaodev {
                 display: flex;
                 flex-direction: row;
                 padding: 100px;
@@ -63,11 +63,11 @@
                 }
         }
 
-        .secao2 {
+        .secaodev2 {
                 display: flex;
                 flex-direction: row-reverse;
                 padding: 100px;
-                margin-top: -100px;
+                margin-top: -130px;
 
                 h3 {
                         font-size: 30px;
@@ -118,5 +118,61 @@
 
         }
 
+        .secaoreact{
+                display: flex;
+                flex-direction: row;
+                padding: 150px;
+                margin-top: -195px;
 
+                h3{
+                        font-size: 30px;
+                }
+
+                p{
+                        font-size: 21px;
+                }
+
+                li{
+                        font-size: 21px;
+                }
+
+                li::marker {
+                        color: #f82863;
+                }
+
+                span{
+                        color: #f82863;
+                        font-weight: 700;
+                }
+
+                .text3{
+                        display: flex;
+                        flex-direction: column;
+                }
+
+                .img{
+                        width: 450px;
+                        position: relative;
+                        left: 90px;
+                }
+        }
+
+        .mark{
+                display: flex;
+                flex-direction: column;
+                padding: 100px;
+                margin-top: -80px;
+
+                span{
+                        color: #5FFF69;
+                }
+
+                h2{
+                        font-size: 30px;
+                }
+
+                p{
+                        font-size: 21px;
+                }
+        }
 }

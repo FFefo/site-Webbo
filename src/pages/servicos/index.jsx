@@ -37,7 +37,7 @@ export default function Servico() {
 
         </section>
 
-        <section className='secao'>
+        <section className='secaodev'>
 
           <div className='text'>
 
@@ -71,7 +71,7 @@ export default function Servico() {
 
         </section>
 
-        <section className='secao2'>
+        <section className='secaodev2'>
 
           <div className='text'>
 
@@ -96,22 +96,45 @@ export default function Servico() {
           <img className='imagem' src="/assets/images/fullstack.png" alt="dispositivos" />
         </section>
 
-        <section className='secao'>
+        <section className='secaoreact'>
+
+          <div className='text3'>
 
           <h3>Especialistas em ReactJS</h3>
-          <p>Aproveite o poder do React para criar interfaces de usuário rápidas e dinâmicas que oferecem uma experiência de alta performance.</p>
+          <br />
+          <p>Aproveite o poder do React para criar interfaces de usuário rápidas e dinâmicas <br /> que oferecem uma experiência de alta performance.</p>
+          <br />
+
           <ul>
-            <li>Componentes Reutilizáveis: Desenvolvimento de componentes React que podem ser reutilizados em diferentes partes da aplicação, garantindo consistência e eficiência.</li>
-            <li>Gerenciamento de Estado: Implementação de soluções avançadas para gerenciar o estado da aplicação, facilitando a manutenção e escalabilidade.</li>
-            <li>Integração com API’s: Conexão perfeita com APIs externas para enriquecer sua aplicação com dados e funcionalidades interativas.           </li>
+
+            <li><span>Componentes Reutilizáveis:</span> Desenvolvimento de componentes React que podem ser <br /> reutilizados em diferentes partes da aplicação, garantindo consistência e eficiência.</li>
+
+            <br />
+
+            <li><span>Gerenciamento de Estado:</span> Implementação de soluções avançadas para gerenciar o estado <br />da aplicação, facilitando a manutenção e escalabilidade.</li>
+
+            <br />
+
+            <li><span>Integração com API’s:</span> Conexão perfeita com APIs externas para enriquecer sua aplicação <br /> com dados e funcionalidades interativas.</li>
+
           </ul>
+
+          </div>
+
+          <img className='img' src="/assets/images/react.png" alt="" />
 
         </section>
 
-        <section className='secaoserviço'>
-          <h2>Serviços da Webbo.</h2>
+        <section className='mark'>
 
-          <p>Aproveite o poder do React para criar interfaces de usuário rápidas e dinâmicas que oferecem uma experiência de alta performance.</p>
+          <div className='text4'>
+
+            <h2>Por que aderir os serviços da <span>Webbo</span>? </h2>
+            <br />
+            <p>Na Webbo, combinamos experiência e expertise com um compromisso inabalável com a qualidade. Nossa equipe é altamente qualificada em tecnologias de ponta, como fullstack e React, o que nos permite entregar soluções excepcionais. Adotamos uma abordagem centrada no cliente, trabalhando lado a lado com você para entender suas necessidades específicas e desenvolver soluções personalizadas que superam suas expectativas. Além disso, garantimos suporte contínuo e manutenção para que seu site e aplicações operem de forma impecável, mantendo-se sempre atualizados e funcionais. Com a Webbo, você tem a certeza de um parceiro confiável para o sucesso digital do seu negócio.</p>
+
+          </div>
+
         </section>
 
       </section>
@@ -121,4 +144,3 @@ export default function Servico() {
     </div>
   );
 }
-
