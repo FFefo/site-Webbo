@@ -102,7 +102,7 @@ export default function Servico() {
 
           <h3>Especialistas em ReactJS</h3>
           <br />
-          <p>Aproveite o poder do React para criar interfaces de usuário rápidas e dinâmicas <br /> que oferecem uma experiência de alta performance.</p>
+          <p>Aproveite o poder do React para criar interfaces de usuário rápidas e dinâmicas que oferecem uma experiência de alta performance.</p>
           <br />
 
           <ul>
